@@ -26,7 +26,7 @@ module.exports = {
 			});
 			if (bannerUrl) {
 				const Embed = new Discord.MessageEmbed()
-				Embed.setTitle(`Cette Bannière Et Incroyable !!!`);
+				Embed.setTitle(`Cette Bannière est Incroyable !!!`);
 				Embed.setDescription(`Voici La Bannière De <@${member.id}>`)
 				Embed.setImage(`${bannerUrl}`);
 				Embed.setFooter(`${client.config.name}`)
